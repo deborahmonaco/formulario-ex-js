@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario Perguntas - Deborah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    
+</head>
+<body>
+
+<div class="container">
+
+    <h1>
+        Formulário
+    </h1>
+
+    <div class="colunas">
+        <div class="coluna-1">
+            <h2> Perguntas </h2>
+                <form>
+                    <div class="bloco">
+                        <div class="pergunta">
+                            <label for="num1">Qual o nome da namorada do Chico Bento?</label>
+                        </div>
+                        <div class="resposta">
+                            <input id="campo-num1" class="campo-texto" type="text" placeholder="Digite aqui sua respota" required="required" name="num1" />
+                        </div>
+                    </div>
+
+                    <div class="bloco">
+                        <div class="pergunta">
+                            <label for="num2">Qual o nome do amigo do Cebolinha?</label>
+                        </div>
+                        <div class="resposta">
+                            <input id="campo-num2" class="campo-texto" type="text" placeholder="Digite aqui sua respota" required="required" name="num2" />
+                        </div>
+                    </div>
+
+                    <div class="bloco">
+                        <div class="pergunta">
+                            <label for="num3">Qual o nome da amiga da Monica?</label>
+                        </div>
+                        <div class="resposta">
+                            <input id="campo-num3" class="campo-texto" type="text" placeholder="Digite aqui sua respota" required="required" name="num3" />
+                        </div>
+                    </div>
+
+                    
+                        <input id="btn-enviar" type="submit" value="enviar" class="botao1"/>
+                        <input id="btn-reload" type="submit" value="repetir" class="botao2"/>
+                    
+
+                </form>
+        </div>
+
+        <div class="coluna-2">
+            <div class="colunas">
+
+                <div class="coluna-1">
+                    <h2>resultados certos</h2>
+
+                    <div class="box correto">
+                        <div class="bloco2">
+                            <p id="r1"> </p>
+                        </div>    
+                        <div class="bloco2">
+                            <p id="r2">  </p>
+                        </div>
+                        <div class="bloco2">
+                            <p id="r3"> </p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="coluna-2">
+                    <h2>resultados errados</h2>
+
+                    <div class="box errado">
+                        <div class="bloco2">
+                            <p id="r4"> </p>
+                        </div>    
+                        <div class="bloco2">
+                            <p id="r5">  </p>
+                        </div>
+                        <div class="bloco2">
+                            <p id="r6"> </p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="script/script.js"></script> 
+
+</body>
+</html>
